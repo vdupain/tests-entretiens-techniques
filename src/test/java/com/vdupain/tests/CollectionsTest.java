@@ -15,6 +15,7 @@ public class CollectionsTest  {
     List<String> list1 = Arrays.asList("Larry", "Moe", "Curly");
     List<String> list2 = Arrays.asList("xxx", "Curly", "bbb");
 
+    //to be implemented: OperationsEnsemblistes interface
     private OperationsEnsemblistes op = new Collections();
 
     @Test
