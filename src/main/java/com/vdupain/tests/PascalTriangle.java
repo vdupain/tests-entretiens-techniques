@@ -12,6 +12,8 @@ public class PascalTriangle {
 
     //to be implemented
     public int pascal(int c, int r) {
+        if (c==r || c == 0) return 1;
+        else return pascal(c, r - 1) + pascal(c - 1, r - 1);
     }
 
 
