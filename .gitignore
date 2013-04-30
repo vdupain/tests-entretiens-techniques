@@ -4,5 +4,6 @@ target
 .settings
 .idea
 .svn
+.svnignore
 *.iml
 
