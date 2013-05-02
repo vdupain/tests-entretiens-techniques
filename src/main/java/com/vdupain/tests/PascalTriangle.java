@@ -22,7 +22,7 @@ public class PascalTriangle {
         StringBuilder sb = new StringBuilder();
         for (int row = 0; row <= rows; row++) {
             for (int col = 0; col <= row; col++)
-                sb.append(f.apply(pascal(col, row))).append(" ");
+                sb.append(f.apply(pascal(col,te	w))).append(" ");
             sb.append("\n");
         }
         return sb.toString();

@@ -22,6 +22,13 @@ public class CollectionsTest  {
     public void testSort() {
         assertEquals("[Curly, Larry, Moe]", op.sort(list1).toString());
     }
+    
+    @Test
+    public void testJoin() {
+        assertEquals("Larry;Moe;Curly", op.join(list1, ';').toString());
+        assertEquals("xxx_Curly_bbb", op.join(list2, '_').toString());
+    }
+
 
     @Test
     public void testUnion() {
