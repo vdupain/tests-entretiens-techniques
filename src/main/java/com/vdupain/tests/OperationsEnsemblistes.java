@@ -13,4 +13,6 @@ public interface OperationsEnsemblistes {
 
     List difference(List list1, List list2);
 
+    String join(List list1, char sep);
+
 }
