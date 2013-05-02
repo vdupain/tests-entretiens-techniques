@@ -7,7 +7,7 @@ public interface DSL {
 
     DSL Then(Expression expr);
 
-    DSL Else(Expression expr);
+    void Else(Expression expr);
 
     public class XXX {
         public static DSL start() {
@@ -27,9 +27,8 @@ public interface DSL {
                 }
 
                 @Override
-                public DSL Else(Expression expr) {
+                public void Else(Expression expr) {
                     if (!condition) expr.eval();
-                    return this;
                 }
             };
         }
