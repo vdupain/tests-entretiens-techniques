@@ -23,18 +23,4 @@ public class TrianglePascalTest {
         assertEquals(expected, actual);
     }
 
-    @Test
-    public void test2() {
-        String actual = pascalTriangle.shadoksPrint();
-        String expected =
-                        "BU \n" +
-                        "BU BU \n" +
-                        "BU ZO BU \n" +
-                        "BU MEU MEU BU \n" +
-                        "BU BUGA BUZO BUGA BU \n" +
-                        "BU BUBU ZOZO ZOZO BUBU BU \n";
-
-        assertEquals(expected, actual);
-    }
-
 }
